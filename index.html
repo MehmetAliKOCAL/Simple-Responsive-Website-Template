@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Your name goes here">
+    <meta name="keywords" content="Website Template, Portfolio Website">
+    <meta name="description" content="A personal website template that can be used as a portfolio.">
+    <link rel="stylesheet" href="style.css">
+    <!--Write your logo's link or file directory below inside the href parameter.-->
+    <link rel="icon" href="Sys_Images/logo.png">
+    <title>Home | Your Name</title>
+</head>
+
+<body>
+    <div class="topmostGradientBar"></div>
+    <nav>
+        <!--Home button at the top right corner-->
+        <button class="home" onclick="location.href='Index.html'">HOME</button>
+        <!--Projects button at the top right corner-->
+        <button class="projects" onclick="location.href='projects.html'">Projects</button>
+    </nav>
+
+    <!--Who am i info box's container-->
+    <div class="whoami">
+        <!--Title of who am i info box-->
+        <div class="whoami-t">Who Am I ?</div>
+        <!--Content of who am i info box-->
+        <div class="whoami-c">Hello, I'm Mehmet Ali, 21 years old computer programmer from Turkey. My programming
+            education
+            is continuing at Recep Tayyip Erdogan University. I am actively studying web design, database, graphic
+            animation, algorithms, visual programming, and python. Apart from these, I also try to improve myself about
+            cybersecurity -especially at offensive side- thanks to Udemy courses, TryHackMe and HackTheBox.</div>
+    </div>
+
+    <!--Contact me info box's container-->
+    <div class="contact">
+        <!--Title of contact me info box-->
+        <div class="contact-t">Contact Me</div>
+        <!--Content of contact me info box-->
+        <div>
+            <div class="contact-instagram" onclick="window.open('https://www.instagram.com/0sheker/')"><img
+                    class="logos" src="./Sys_Images/instagram.png">0sheker
+            </div>
+            <div class="contact-discord" onclick="window.open('https://discordapp.com/users/554061262229864458')"><img
+                    class="logos" src="Sys_Images/discord.png">Gwyn#0997</div>
+            <div class="contact-linkedin" onclick="window.open('https://www.linkedin.com/in/gwyn00')"><img class="logos"
+                    src="./Sys_Images/linkedin.png">Mehmet Ali
+                KOÇAL</div>
+        </div>
+    </div>
+
+    <!--Things i'm using info box's container-->
+    <div class="things">
+        <!--Title of things i'm using info box-->
+        <div class="things-t">Things I'm Using</div>
+        <!--Content of things i'm using info box-->
+        <div class="things-c">
+            <!--Adress the logo file directories or links of the programs that you use inside the quotes of src parameters.-->
+            <table>
+                <tr>
+                    <td class="pr"><img class="logos" src="./Sys_Images/premierepro.png">Adobe Premiere Pro</td>
+                    <td class="ae"><img class="logos" src="Sys_Images/aftereffects.png">Adobe After Effects</td>
+                    <td class="ps"><img class="logos" src="Sys_Images/photoshop.png">Adobe Photoshop</td>
+                </tr>
+                <tr>
+                    <td class="html"><img class="logos" src="Sys_Images/html5.png">HTML 5</td>
+                    <td class="css"><img class="logos" src="Sys_Images/css3.png">CSS 3</td>
+                    <td class="py"><img class="logos" src="Sys_Images/python.png">Python</td>
+                </tr>
+                <tr>
+                    <td class="kali"><img class="logos" src="Sys_Images/kali.png">Kali Linux</td>
+                    <td class="nmap"><img class="logos" src="Sys_Images/nmap.png">NMap</td>
+                    <td class="ac"><img class="logos" src="Sys_Images/aircrack.png">AirCrack-NG</td>
+                </tr>
+                <tr>
+                    <td class="ms"><img class="logos" src="Sys_Images/metasploit.png">Metasploit</td>
+                    <td class="bc"><img class="logos" src="Sys_Images/bettercap.png">Bettercap</td>
+                    <td class="ws"><img class="logos" src="Sys_Images/wireshark.png">WireShark</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
