@@ -1,0 +1,2 @@
+# Simple-Responsive-Website-Template
+This is a responsive website template made with vanilla CSS and HTML that can be used as an online portfolio. You can introduce yourself, show the things ( programming languages or frameworks or other things ) that you are using and also make people contact with you via your social's links with this beautiful looking, simple website. The website has got tablet computer resolution, mobile device resolution and desktop resolution support.
